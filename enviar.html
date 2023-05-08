@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Receitas</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="cadastro.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <nav><ul>
+                    <li><a href="enviar.html"> Enviar minha Receita</a></li>
+                    <li><a href="cadastro.html">ENTRAR / CADASTRAR</a></li>
+                </ul></nav>
+            </div>
+
+            <img id="foto" src="./img/topo.png">
+            <a href="index.html"><img id="home" src="./img/homee.png"></a>
+        </header>
+
+        <main>
+            <h1 class="titulo-principal">Minha Receita</h1><br>
+
+            <form>
+
+                <label for="Nome">Nome Completo:</label>
+                <input type="text" id="nome" class="padrao-input" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="padrao-input" required>
+
+                <label for="mensagem">Receita</label>
+                <textarea cols="70" rows="10" id="mensagem" placeholder="Escreva aqui"></textarea> 
+
+                <label><input type="checkbox">Concordo com os Termos de Uso e Política de Privacidade.</label>
+                <input type="submit" value="ENVIAR" class="enviar">
+            </form>
+        </main>
+        
+
+        <footer> 
+            <br><h2><em>Siga nosso Instagram: @melhores_receitas</em></h2>
+            <img src="./img/fim.png">
+            <h3 class="copyright">&copy;Copyright Melhores Receitas - 2022</h3>
+        </footer>  
+    </body>
+
+</html>

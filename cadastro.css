@@ -1,0 +1,175 @@
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+}
+
+.topo{
+    background-color: #d9d9d9;
+}
+
+.envio{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 1700px;
+    color: black;
+
+}
+
+.welcome{
+    display: inline-block;
+    margin-top: -150px;
+    margin-left: 765px;
+    margin-block-end: 10px;
+    font-size: 50px;
+    color: black;
+}
+
+.cadastro{
+    display: inline-block;
+    color: white;
+    margin-left: 550px;
+    font-size: 15px;
+}
+
+.entrar{
+    display: inline-block;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#home{
+    margin-right: 0px;
+    margin-left: 5px;
+    width: 150px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav{
+    position: relative;
+    top: 130px;
+    right: 0;
+    left: 1220px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: #ff66c4;
+    color: white;
+}
+
+p{
+    font: 1em sans-serif;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form label{
+    display: block;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+.padrao-input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 40%;
+}
+
+h2{
+    text-align: center;
+    background-color: #ff66c4;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: url(./img/fim.png);
+    width: 100%;
+}
+
+.google{
+    width: 23%;
+    padding: 5px 0;
+    background: darkturquoise;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.face{
+    width: 23%;
+    padding: 5px 0;
+    background: darkblue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar{
+    width: 18%;
+    padding: 12px 0;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #ff66c4;
+    transform: scale(1.2);
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.principal p:not(#cad){
+    background-color: aqua;
+}

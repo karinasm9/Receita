@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Receitas</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="cadastro.css">
+    </head>
+    <body>
+            
+        <header>
+            <div class="caixa">
+                <nav><ul>
+                    <li><a href="enviar.html"> Enviar minha Receita</a></li>
+                    <li><a href="cadastro.html">ENTRAR / CADASTRAR</a></li>
+                </ul></nav>
+            </div>
+
+            <img id="foto" src="./img/topo.png">
+            <a href="index.html"><img id="home" src="./img/homee.png"></a>
+        </header>
+
+        <main>
+            <form>
+                <input type="submit" value=" G  Entre com o google" class="google">
+                <input type="submit" value=" f  Entre com o facebook" class="face"> <br><br><br>
+
+                <p>OU</p> <br>
+
+                <p id="cad">Ou cadastre-se diretamente no nosso site</p> <br><br>
+
+                <label for="Nome">Nome Completo:</label>
+                <input type="text" id="nome" class="padrao-input" required>
+
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" class="padrao-input" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="padrao-input" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" class="padrao-input" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" class="padrao-input" required placeholder="(xx)xxxxx-xxxx">
+
+                <fieldset>
+                    <legend>Gênero:
+                        <select> 
+                            <option>--</option>
+                            <option>Feminino</option>
+                            <option>Masculino</option>
+                    </select>
+                    </legend>
+                </fieldset> <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea cols="70" rows="10" id="mensagem" placeholder="Deixa aqui uma mensagem"></textarea> 
+                <br><br>
+
+            <fieldset>
+                <p>Como devemos entrar em contato?</p> <br>
+                <label for="radio-email">
+                <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone">
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">WhatsApp</label> <br>
+                 
+            </fieldset>
+                <br>
+                <label><input type="checkbox">Concordo com os Termos de Uso e Política de Privacidade.</label>
+                <label><input type="checkbox">Deseja receber novidades por email?</label> <br>
+
+                <input type="submit" value="ENVIAR" class="enviar">
+            </form>
+        </main>
+
+    <footer>
+        <br><h2><em>Siga nosso Instagram: @melhores_receitas</em></h2>
+        <img src="./img/fim.png">
+        <h3 class="copyright">&copy;Copyright Melhores Receitas - 2022</h3>
+    </footer>
+
+    </body>
+</html>
